@@ -1,0 +1,63 @@
+*{ margin:0px; padding:0px;}
+
+a img { border:0px; }
+:focus { outline: 0; }
+ol, ul { list-style: none; }
+.alignright { float:right;}
+.alignleft { float:left;}
+.alignnone { height:0px; font-size:0px; clear:both; line-height:0px; }
+
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+
+html, body { margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000; }
+
+.wrapper { width:100%; }
+.container { width:960px; margin:0 auto; }
+.header { background:url(../images/header-bg.png) center top no-repeat; }
+
+.logo { padding: 23px 0 28px; width:332px;  margin:0 auto; }
+.logo a { width:332px; height:75px; display:block; overflow:hidden; text-decoration:none; color:#000; text-indent:-9999px; background:url(../images/logo-infinite.png) left top no-repeat; } 
+
+.middle { }
+.widecolumn { width:734px; }
+.narrowcolumn { width:208px; }
+.footer { background:#010101 url(../images/footerbg.jpg) left top no-repeat; padding:18px 0 10px 0; }
+
+#mainblock{ width:800px; margin:50px auto; padding:25px; background:#fff; border:solid 4px #f9f9f9;   -moz-box-shadow:0 0 20px #e2e2e2; }
+#mainblock h1{ font-size:40px; font-family: Arial, Helvetica, sans-serif; color:#6D8831; padding-bottom:20px; line-height:30px; border-bottom:dashed 1px #e8e9e9; margin-bottom:25px; font-family: 'Oleo Script', cursive; font-weight:normal; text-align:center; text-transform:none;}
+.formcontainer{ padding:25px;}
+.qiocform dd{ padding-bottom:14px; color:#5b5656; font-size:12px;}
+.qiocform dd span{ display: block; padding-bottom:10px; font-weight:bold;}
+.textfield{ background:#fff url(../images/textfbg.jpg) left top no-repeat; padding:2px 3px; border:solid 1px #d3d3d3; display:block; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: inset 1px 1px 2px #e4e4e4; -webkit-box-shadow: inset 1px 1px 2px #e4e4e4; box-shadow: inset 1px 1px 2px #e4e4e4;}
+.textfield input{ border:0px; background:none; width:228px; font-family:Arial, Helvetica, sans-serif; font-size:11px; padding:2px; line-height:18px; height:18px; color:#333;  }
+.textfield textarea{width:100%; border:0px; background:none; height:50px; padding:3px 0; font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#333; overflow:auto; font-family:Arial, Helvetica, sans-serif; font-size:11px;}
+.qiocform dd.submit{ padding:5px 0 2px 0;}
+.invisible{ display:none;}
+
+.formbox{ width:240px; padding:20px; background:#f7f7f7; border:solid 1px #e2e2e2; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+.submit input{ background:#6d8831; padding:5px 10px;  color:#fff; border:0px; width:auto; overflow:visible; cursor:pointer; font-weight:bold; font-family:Arial, Helvetica, sans-serif; font-size:12px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+.widecolumn{ width:465px; font-family:Arial, Helvetica, sans-serif;}
+.widecolumn{font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #5B5656; font-size: 12px; line-height:20px;}
+.widecolumn h3{ color:#83a142; font-size:24px; padding-bottom:8px; margin-bottom:10px; border-bottom:solid 1px #f4f4f4; text-transform:uppercase; font-family: 'Jockey One', sans-serif; font-weight:normal;}
+.widecolumn h4{ font-size:16px; color:#F60; padding:0 7px; background:#f5f5f5; line-height:28px; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px;  font-family: 'Jockey One', sans-serif; font-weight:normal; text-transform:uppercase;}
+.widecolumn pre{ padding:5px;}
+.browserlist{ padding:10px 0 10px 30px;}
+.browserlist li{ list-style-type:disc;}
+.havefun{ font-family: 'Oleo Script', cursive; font-size:24px; font-weight:normal; padding:15px 20px; text-align:center; color:#39F; text-align:center; display:block; border:solid 3px #fff; -moz-box-shadow:0px 0px 3px #e2e2e2; background:#fbfff2; margin:15px 0 0 0;}
+
+/*------------------------------------------------------------------------------------
+Custom File input css start
+------------------------------------------------------------------------------------*/
+.customfile{ position:relative; overflow:hidden; width:230px; height:26px; border:solid 0px red;  background:#fff; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;  border:solid 1px #c2c2c2; padding:2px; -webkit-box-shadow: inset 1px 1px 2px #e4e4e4; box-shadow: inset 1px 1px 2px #e4e4e4;}
+.customfile span{ display:block; float:left; }
+.customfile span.cust-field{line-height:20px; padding:3px 4px; width:151px; height:20px; cursor:pointer; color:#212121; display:block; font-weight:normal; color:#333; }
+.customfile span.cust-btn{ float:right; line-height:20px; padding:1px 10px; height:22px; text-align:center; font-weight:bold; cursor:pointer; color:#333; background:#e1e1e1; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;  text-transform:uppercase; margin-top:1px; }
+.customfile .fileinput{ position:absolute; left:0px; top:0px; cursor:pointer; z-index:99;}
+/*------------------------------------------------------------------------------------
+Custom File input css end
+------------------------------------------------------------------------------------*/
+

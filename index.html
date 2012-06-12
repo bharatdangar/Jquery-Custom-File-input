@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7 ]> <html xmlns="http://www.w3.org/1999/xhtml" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html xmlns="http://www.w3.org/1999/xhtml" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html xmlns="http://www.w3.org/1999/xhtml" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html xmlns="http://www.w3.org/1999/xhtml" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml"> <!--<![endif]-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Custom File Input</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Jockey+One' rel='stylesheet' type='text/css' />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/customfileinput.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready( function(){
+	$('.customfileinput').customFileinput({
+		buttiontext : 'Browse',
+		customboxwidth : 234
+	});
+	$('.invisible').show();
+});
+</script>
+</head>
+<body>
+	<div id="mainblock" class="clearfix">
+    <h1>Jquery Custom File Input Plugin</h1>
+    	<div class="widecolumn alignright">
+        	
+<h3>How to use</h3>
+<h4>Add scripts in to Head </h4>
+<pre>
+&lt;script src=&quot;js/jquery.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt; 
+&lt;script src=&quot;js/customfileinput.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+</pre> 
+<br />
+<h4>Add scripts in to Head </h4>
+<pre>
+&lt;script type=&quot;text/javascript&quot;&gt;
+   $(document).ready( function(){
+	  $('.customfileinput').customFileinput({
+	  	  buttiontext : 'Browse',
+		  customboxwidth : 234
+	  });
+   });
+&lt;/script&gt;
+</pre> 
+<br />
+<h4>Browsers Compebility</h4>
+<ul class="browserlist">
+	<li>IE 6 +</li>
+	<li>Mozila Firefox 3 +</li>
+	<li>Apple Safari 3 +</li>
+	<li>Google Chrome 5 +</li>
+	<li>Opera 8 +</li>
+</ul>
+
+
+<strong class="havefun">Have fun!</strong>
+
+
+            
+        </div><!-- .widecolumn -->
+		<div class="alignleft formbox">
+        	<form class="customfileinput">
+		<dl class="qiocform">
+                <dd>
+                    <span>Name</span>
+                    <label class="textfield"><input type="text" name="name"></label>
+                </dd>
+                <dd>
+                    <span>Email Address:</span>
+                    <label class="textfield"><input type="text" name="email"></label>
+                </dd>
+                <dd>
+                    <span>Phone Number :</span>
+                    <label class="textfield"><input type="text" name="phone"></label>
+                </dd>
+                <dd>
+                    <span>Upload Your Document :</span>
+                    <label><input type="file" /></label>
+                </dd>
+                <dd>
+                    <span>Upload Your Another Document:</span>
+                    <label><input type="file" /></label>
+                </dd>
+                <dd class="invisible">
+                    <span>Invisible Object:</span>
+                    <label><input type="file" /></label>
+                </dd>
+                <dd>
+                    <span>Comment :</span>
+                    <label class="textfield"><textarea name="massage" cols="5" rows="5"></textarea></label>
+                </dd>
+                <dd class="submit clearfix">
+                    <input type="submit" value="Submit" name="submit" class="alignright">
+                </dd>
+            </dl>
+	</form>
+    	</div><!-- .formbox -->
+    </div>
+</body>
+</html>
