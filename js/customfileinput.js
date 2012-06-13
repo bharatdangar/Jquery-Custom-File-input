@@ -15,7 +15,7 @@
 			
 			//Set Default setting for plugin
 			var defaults = {
-                buttiontext : 'Send',
+                buttontext : 'Send',
 				customboxwidth : 400,
 				customboxclass : 'customfile',
 				fileinputclass : 'fileinput'
@@ -31,7 +31,7 @@
 			//create Element for custom design
 			var customfile = $('<div class="'+options.customboxclass+'"></div>'); //custome file wrapper
 			var cfilefield = $('<span class="cust-field"></span>'); //custome file field
-			var cfilebutton = $('<span class="cust-btn"></span>').text(options.buttiontext); //custome file button
+			var cfilebutton = $('<span class="cust-btn"></span>').text(options.buttontext); //custome file button
 			
 			//Adding file name In Custome design
 			fileinput.bind('change', function(){
