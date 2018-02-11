@@ -1,14 +1,13 @@
 *{ margin:0px; padding:0px;}
-
-a img { border:0px; }
+a img { border:0px; } 
 :focus { outline: 0; }
 ol, ul { list-style: none; }
 .alignright { float:right;}
 .alignleft { float:left;}
 .alignnone { height:0px; font-size:0px; clear:both; line-height:0px; }
-
 .clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
 .clearfix { display: inline-block; }
+
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
